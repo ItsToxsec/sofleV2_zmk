@@ -9,8 +9,8 @@ manifest:
           remote: zmkfirmware
           revision: feat/pointers-move-scroll
           import: app/west.yml
-        - name: niceview-slycooper
-          remote: EdipraTech
+        - name: urchin-peripheral-animation
+          remote: gpeye
           revision: main
     self:
         path: config
