@@ -253,13 +253,13 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - layer4
   - layer1
-  - $$mdi:backspace-reverse-outline$$
   layer4:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -322,6 +322,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
