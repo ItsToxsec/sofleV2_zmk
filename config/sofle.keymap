@@ -28,6 +28,15 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
         };
+        ht_tp: holdtap_tappreferred {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_TAP_PREFERRED";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     scroll_encoder: scroll_encoder {
@@ -45,7 +54,7 @@
             bindings = <
 &kp ESC     &kp N1          &kp N2        &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8         &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q           &kp W         &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I          &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A           &kp S         &mt LCTRL D   &mt LSHFT F  &kp G        &kp LEFT_ARROW   &kp H      &mt RSHFT J    &mt RCTRL K    &kp L            &kp SEMI    &kp APOS
+&kp CAPS    &kp A           &kp S         &ht_tp LCTRL D   &ht_tp LSHFT F  &kp G        &kp LEFT_ARROW   &kp H      &ht_tp RSHFT J    &ht_tp RCTRL K    &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z           &kp X         &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA      &kp DOT          &kp FSLH    &kp ENTER
 &kp C_MUTE  &kp LEFT_GUI    &kp LCTRL  &kp LEFT_ALT  &mo 1        &mt BACKSPACE SPACE             &kp DELETE &mt BACKSPACE SPACE        &kp ENTER  &kp RSHFT      &mo 4   &mo 1  
             >;
@@ -70,8 +79,8 @@
         layer_2 {
             bindings = <
 &kp N5  &kp ESC     &kp N1          &kp N2        &kp N3        &kp N4               &kp UP_ARROW     &kp N6     &kp N7         &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp T   &kp TAB     &kp Q           &kp W         &kp E         &mt TAB R            &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O            &kp P       &kp BSLH
-&kp G   &kp CAPS    &kp A           &kp S         &kp D         &kp F                &kp LEFT_ARROW   &kp H      &mt RSHFT J    &mt RCTRL K      &kp L            &kp SEMI    &kp APOS
+&kp T   &kp TAB     &kp Q           &kp W         &kp E         &ht_tp TAB R            &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O            &kp P       &kp BSLH
+&kp G   &kp CAPS    &kp A           &kp S         &kp D         &kp F                &kp LEFT_ARROW   &kp H      &ht_tp RSHFT J    &ht_tp RCTRL K      &kp L            &kp SEMI    &kp APOS
 &kp B   &kp LSHFT   &kp Z           &kp X         &kp C         &kp V                &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
 &kp C_MUTE  &kp LEFT_GUI    &kp LCTRL  &kp LEFT_ALT  &kp CAPS        &kp LCTRL    &kp SPACE        &kp ENTER  &kp RSHFT      &mo 1      &kp RIGHT_SHIFT  &kp DELETE
             >;
@@ -84,7 +93,7 @@
             bindings = <
 &kp ESC     &kp N1          &kp N2        &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8         &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q           &kp W         &kp F         &kp P        &kp G        &kp DOWN_ARROW   &kp J      &kp L          &kp U          &kp Y            &kp SEMI       &kp BSLH
-&kp CAPS    &kp A           &kp R         &mt LCTRL S   &mt LSHFT T  &kp D        &kp LEFT_ARROW   &kp H      &mt RSHFT N    &mt RCTRL E    &kp I            &kp O       &kp APOS
+&kp CAPS    &kp A           &kp R         &ht_tp LCTRL S   &ht_tp LSHFT T  &kp D        &kp LEFT_ARROW   &kp H      &ht_tp RSHFT N    &ht_tp RCTRL E    &kp I            &kp O       &kp APOS
 &kp LSHFT   &kp Z           &kp X         &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp K      &kp M          &kp COMMA      &kp DOT          &kp FSLH    &kp ENTER
 &kp C_MUTE  &kp LEFT_GUI    &kp LCTRL  &kp LEFT_ALT  &mo 1        &mt BACKSPACE SPACE             &kp DELETE &mt BACKSPACE SPACE        &kp ENTER  &kp RSHFT      &mo 4   &mo 1  
             >;
