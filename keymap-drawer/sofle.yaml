@@ -30,13 +30,13 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - '&ht_hp LCTRL D'
-  - '&ht_hp LSHFT F'
+  - '&ht_tp LCTRL D'
+  - '&ht_tp LSHFT F'
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_hp RSHFT J'
-  - '&ht_hp RCTRL K'
+  - '&ht_tp RSHFT J'
+  - '&ht_tp RCTRL K'
   - L
   - {t: ;, s: ':'}
   - .
@@ -149,7 +149,7 @@ layers:
   - Q
   - W
   - E
-  - '&ht_hp TAB R'
+  - '&ht_tp TAB R'
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -165,8 +165,8 @@ layers:
   - F
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_hp RSHFT J'
-  - '&ht_hp RCTRL K'
+  - '&ht_tp RSHFT J'
+  - '&ht_tp RCTRL K'
   - L
   - {t: ;, s: ':'}
   - .
@@ -226,12 +226,12 @@ layers:
   - A
   - R
   - '&ht_hp LCTRL S'
-  - '&ht_hp LSHFT T'
+  - '&ht_tp LSHFT T'
   - D
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_hp RSHFT N'
-  - '&ht_hp RCTRL E'
+  - '&ht_tp RSHFT N'
+  - '&ht_tp RCTRL E'
   - I
   - O
   - .
