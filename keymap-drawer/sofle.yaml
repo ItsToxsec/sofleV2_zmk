@@ -30,13 +30,13 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - '&ht_tp LCTRL D'
-  - '&ht_tp LSHFT F'
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_tp RSHFT J'
-  - '&ht_tp RCTRL K'
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, s: ':'}
   - .
@@ -57,15 +57,15 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - mod
+  - Mod
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - layer4
-  - mod
-  mod:
+  - Mod
+  Mod:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -149,7 +149,7 @@ layers:
   - Q
   - W
   - E
-  - '&ht_tp TAB R'
+  - {t: R, h: '$$mdi:keyboard-tab$$'}
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -165,8 +165,8 @@ layers:
   - F
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_tp RSHFT J'
-  - '&ht_tp RCTRL K'
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, s: ':'}
   - .
@@ -192,7 +192,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - mod
+  - Mod
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   Colemak:
@@ -225,13 +225,13 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - R
-  - '&ht_hp LCTRL S'
-  - '&ht_tp LSHFT T'
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - D
   - $$mdi:arrow-left-bold$$
   - H
-  - '&ht_tp RSHFT N'
-  - '&ht_tp RCTRL E'
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - I
   - O
   - .
@@ -252,14 +252,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - mod
+  - Mod
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - layer4
-  - mod
+  - Mod
   layer4:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
