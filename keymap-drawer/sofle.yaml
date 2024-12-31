@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  LAYER0:
+  Main:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -57,15 +57,15 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
-  - '&ht_hp BACKSPACE SPACE'
+  - mod
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - $$mdi:backspace-reverse-outline$$
-  - '&ht_hp BACKSPACE SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - layer4
-  - layer1
-  layer1:
+  - mod
+  mod:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -125,12 +125,12 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: layer2, h: toggle}
-  - {t: layer3, h: toggle}
+  - {t: Gaming, h: toggle}
+  - {t: Colemak, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  layer2:
+  Gaming:
   - {t: '5', s: '%'}
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -192,10 +192,10 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - layer1
+  - mod
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  layer3:
+  Colemak:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -252,14 +252,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
-  - '&ht_hp BACKSPACE SPACE'
+  - mod
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - $$mdi:backspace-reverse-outline$$
-  - '&ht_hp BACKSPACE SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - layer4
-  - layer1
+  - mod
   layer4:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
