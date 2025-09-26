@@ -4,6 +4,8 @@ manifest:
           url-base: https://github.com/petejohanson
         - name: gpeye
           url-base: https://github.com/GPeye
+        - name: itstoxsec
+          url-base: https://github.com/ItsToxsec
     projects:
         - name: zmk
           remote: zmkfirmware
@@ -11,6 +13,9 @@ manifest:
           import: app/west.yml
         - name: urchin-peripheral-animation
           remote: gpeye
+          revision: main
+        - name: nice-view-sly
+          remote: itstoxsec
           revision: main
     self:
         path: config
