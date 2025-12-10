@@ -1,4 +1,4 @@
-draw_config:
+/* draw_config:
   n_columns: 1
   draw_key_sides: true
   key_w: 60.0
@@ -556,3 +556,4 @@ parse_config:
       key:
         shifted: ":"
         hold: ";"
+*/
