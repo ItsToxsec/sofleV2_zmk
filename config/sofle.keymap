@@ -77,36 +77,43 @@
         combo_lshft {
             bindings = <&kp LSHFT>;
             key-positions = <42 43>;
+            layers = <0 1 2>;
         };
 
         combo_esc {
             bindings = <&kp ESC>;
             key-positions = <14 15>;
+            layers = <0 1 2>;
         };
 
         combo_rshft {
             bindings = <&kp RSHFT>;
             key-positions = <46 47>;
+            layers = <0 1 2>;
         };
 
         combo_dash {
             bindings = <&kp MINUS>;
             key-positions = <23 24>;
+            layers = <0 1 2>;
         };
 
         combo_lsuper {
             bindings = <&kp LGUI>;
             key-positions = <40 41>;
+            layers = <0 1 2>;
         };
 
         combo_rsuper {
             bindings = <&kp RGUI>;
             key-positions = <50 49>;
+            layers = <0 1 2>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <59 57>;
+            layers = <0 1 2>;
         };
     };
 
