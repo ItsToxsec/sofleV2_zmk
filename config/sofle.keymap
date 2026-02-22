@@ -182,27 +182,27 @@
 
         num_layer {
             bindings = <
-&kp ESC     &kp N1     &kp N2  &kp N3  &kp N4    &kp N5      &kp UP_ARROW     &kp N6     &kp N7  &kp N8  &kp N9  &kp N0     &none
-&kp TAB     &kp LBRC   &kp F7  &kp F8  &kp F9    &kp RBRC    &kp DOWN_ARROW   &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &none
-&kp CAPS    &kp COLON  &kp F4  &kp F5  &kp F6    &kp PLUS    &kp LEFT_ARROW   &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp SEMI   &none
-&kp LSHFT   &kp TILDE  &kp F1  &kp F2  &kp F3    &kp LALT    &kp RIGHT_ARROW  &kp BSLH   &kp N1  &kp N2  &kp N3  &kp TILDE  &none
-&kp C_MUTE  &none      &none   &none   &kp LPAR  &kp RPAR    &kp DELETE       &trans     &none   &none   &none   &none
+&none       &none      &none      &none      &none      &none        &kp UP_ARROW     &none     &none      &none      &none      &none     &none
+&none       &kp BSLH   &kp SQT    &kp LBKT   &kp LBRC   &kp LPAR     &kp DOWN_ARROW   &kp RPAR   &kp RBRC  &kp RBKT   &kp GRAVE  &kp EQUAL &none
+&none       &kp N1     &kp N2     &kp N3     &kp N4     &kp N5       &kp LEFT_ARROW   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &none
+&none       &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &kp RIGHT_ARROW  &kp CARET  &kp AMPS  &kp ASTRK  &kp MINUS  &kp UNDER &none
+&kp C_MUTE  &none      &none      &none      &kp LSHFT  &kp LALT     &kp DELETE       &trans     &none   &none   &none   &none
             >;
 
             display-name = "Number";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        sym_layer {
+        fun_layer {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4     &kp F5      &kp UP_ARROW     &kp F6     &kp F7      &kp F8       &kp F9     &kp F10   &none
-&trans      &kp ESC    &kp LBKT   &kp RBKT   &kp LBRC   &kp RBRC    &mmv MOVE_DOWN   &kp TILDE  &kp AMPS    &kp ASTRK    &kp EQUAL  &kp PLUS  &none
-&trans      &kp COLON  &kp LCTRL  &kp LALT   &kp LSHFT  &kp PLUS    &mmv MOVE_LEFT   &kp GRAVE  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp SEMI  &none
-&trans      &kp TILDE  &kp MINUS  &kp UNDER  &kp F3     &kp SQT     &mmv MOVE_RIGHT  &kp DQT    &kp EXCL    &kp AT       &kp HASH   &kp BSLH  &none
-&kp C_MUTE  &none      &none      &none      &none      &none       &mkp LCLK        &none      &none       &none        &none      &none
+&none      &none    &none   &none   &none   &none      &mmv MOVE_UP     &none     &none    &none   &none   &none   &none
+&none       &kp F21 &kp F22 &kp F23 &kp F24 &none      &mmv MOVE_DOWN   &none     &none    &none   &none   &none   &none
+&none       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &mmv MOVE_LEFT   &kp F6    &kp F7   &kp F8  &kp F9  &kp F10 &none
+&none       &kp F11 &kp F12 &kp F13 &kp F14 &kp F15    &mmv MOVE_RIGHT  &kp F16   &kp F17  &kp F18 &kp F19 &kp F20 &none
+&kp C_MUTE  &none   &none   &none   &none   &none      &mkp LCLK        &none     &none    &none   &none   &none
             >;
 
-            display-name = "Symbols";
+            display-name = "Functions";
             sensor-bindings = <&scroll_encoder>;
         };
 
