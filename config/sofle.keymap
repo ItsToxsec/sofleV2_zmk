@@ -169,11 +169,11 @@
 
         gam_layer {
             bindings = <
-&kp ESC     &kp N7    &kp N1  &kp N2  &kp N3     &kp N4       &kp UP_ARROW     &kp N6       &kp N7         &kp N8       &kp N9      &kp N0         &kp MINUS
-&kp H       &kp T     &kp Q   &kp W   &kp E      &gt TAB R    &kp DOWN_ARROW   &kp Y        &kp U          &kp I        &kp O       &kp P          &kp BSLH
-&kp L       &kp M     &kp A   &kp S   &kp D      &kp F        &kp LEFT_ARROW   &kp H        &ht RSHFT J    &ht RCTRL K  &ht RALT L  &ht RGUI SEMI  &kp SQT
-&kp GRAVE   &kp B     &kp Z   &kp X   &kp C      &kp V        &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA    &kp DOT     &kp FSLH       &kp RPAR
-&kp C_MUTE  &kp CAPS  &kp N5  &kp N6  &kp LSHFT  &kp LCTRL    &kp DELETE       &to BASE     &lt NAV SPACE  &kp UP       &kp DOWN    &kp END
+&kp ESC     &kp N7    &kp N1  &kp N2     &kp N3     &kp N4       &kp UP_ARROW     &kp N6       &kp N7         &kp N8       &kp N9      &kp N0         &kp MINUS
+&kp H       &kp T     &kp Q   &kp W      &kp E      &gt TAB R    &kp DOWN_ARROW   &kp Y        &kp U          &kp I        &kp O       &kp P          &kp BSLH
+&kp L       &kp M     &kp A   &kp S      &kp D      &kp F        &kp LEFT_ARROW   &kp H        &ht RSHFT J    &ht RCTRL K  &ht RALT L  &ht RGUI SEMI  &kp SQT
+&kp GRAVE   &kp B     &kp Z   &kp X      &kp C      &kp V        &kp RIGHT_ARROW  &kp N        &kp M          &kp COMMA    &kp DOT     &kp FSLH       &kp RPAR
+&kp CAPS    &kp N5    &kp N6  &kp LCTRL  &kp LSHFT  &kp SPACE    &kp DELETE       &to BASE     &lt NAV SPACE  &kp UP       &kp DOWN    &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
