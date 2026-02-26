@@ -183,7 +183,7 @@
         num_layer {
             bindings = <
 &none       &none      &none      &none      &none      &none        &kp UP_ARROW     &none     &none      &none      &none      &none     &none
-&none       &kp BSLH   &kp SQT    &kp LBKT   &kp LBRC   &kp LPAR     &kp DOWN_ARROW   &kp RPAR   &kp RBRC  &kp RBKT   &kp GRAVE  &kp EQUAL &none
+&none       &kp BSLH   &kp LBKT   &kp LBRC   &kp LPAR   &kp SQT      &kp DOWN_ARROW   &kp GRAVE  &kp RPAR  &kp RBRC   &kp RBKT   &kp EQUAL &none
 &none       &kp N1     &kp N2     &kp N3     &kp N4     &kp N5       &kp LEFT_ARROW   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &none
 &none       &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &kp RIGHT_ARROW  &kp CARET  &kp AMPS  &kp ASTRK  &kp MINUS  &kp UNDER &none
 &kp C_MUTE  &none      &none      &none      &kp LSHFT  &kp LALT     &kp DELETE       &trans     &none   &none   &none   &none
